@@ -26,7 +26,7 @@
       <a class="navbar-brand" href="#">Demo Course Website</a>
     </div>
     <ul class="nav navbar-nav pull-right">
-      <li><a href="<?php echo url('/home'); ?>">Home</a></li>
+      <li><a href="<?php echo url('/'); ?>">Home</a></li>
       <li class="active"><a href="<?php echo url('/bookmark'); ?>">BookMarked Courses</a></li>
     </ul>
   </div>

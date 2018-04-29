@@ -8,6 +8,13 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
+<style>
+
+#headding {
+        margin-top: 9vh;
+}
+</style>
+
 </head>
 <body>
 
@@ -23,6 +30,22 @@
   </div>
 </nav>
 
+<div class="container-fluid">
+  <h2 id="headding">Course Information</h2>
+  <table class="table table-striped table-hover">
+    <thead>
+      <tr>
+        <th>Course ID</th>
+        <th>Course Name</th>
+        <th>Course Type</th>
+        <th>Save Info</th>
+      </tr>
+    </thead>
+    <tbody>
+
+    </tbody>
+  </table>
+</div>
 
 </body>
 </html>

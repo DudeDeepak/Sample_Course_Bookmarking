@@ -25,7 +25,7 @@
 // fetching the data from the dom on button click
 
 var val;
-$(document).ready(function(){
+$(document).ready(function() {
 
         $("button").click(function() {
 
@@ -57,6 +57,10 @@ $(document).ready(function(){
 }
                 });
                 saveData.error(function() { $.growl.error({ title: "Error", message: "Failure is bookmarking !!" }); });
+
+        });
+
+});
 
 </script>
 

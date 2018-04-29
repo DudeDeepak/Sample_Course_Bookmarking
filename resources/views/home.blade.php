@@ -32,6 +32,7 @@
 
 <div class="container-fluid">
   <h2 id="headding">Course Information</h2>
+  <p>* Click on save course to bookmark the course details *</p>
   <table class="table table-striped table-hover">
     <thead>
       <tr>

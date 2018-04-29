@@ -43,6 +43,23 @@
     </thead>
     <tbody>
 
+	 <?php
+                $counter = 1;
+                $course_elements = $arr['elements'];
+                foreach($course_elements as $element) {
+
+                echo "<tr>
+                        <td id='course_id_".$counter."'>".$element['id']."</td>
+                        <td id='course_name_".$counter."'>".$element['name']."</td>
+                        <td id='course_type_".$counter."'>".$element['courseType']."</td>
+                        <td><button name='".$counter."' type='button' class='btn btn-primary'>Save Course</button></td>
+                     </tr>";
+
+                        $counter += 1;
+                }
+
+        ?>
+
     </tbody>
   </table>
 </div>

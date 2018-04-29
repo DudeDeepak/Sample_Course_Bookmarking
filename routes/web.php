@@ -11,6 +11,11 @@
 |
 */
 
+/*
 Route::get('/', function () {
     return view('welcome');
 });
+*/
+
+//Routing to the initial page showing course details 
+Route::get('/', 'HomeController@index');

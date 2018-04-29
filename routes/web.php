@@ -22,3 +22,6 @@ Route::get('/', 'HomeController@index');
 
 //Routing to add the bookmark data to the database
 Route::post('/home/insert', 'HomeController@actionInsert');
+
+//Routing to show the bookmarked data in a different page
+Route::get('/bookmark', 'BookmarkController@index');
